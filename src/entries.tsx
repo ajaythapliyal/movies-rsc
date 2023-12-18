@@ -4,7 +4,6 @@ export default defineRouter(
   async (id) => {
     switch (id) {
       case "layout":
-      case "movies/layout":
         return import("./components/shell.js");
       case "page":
       case "movies/page":
