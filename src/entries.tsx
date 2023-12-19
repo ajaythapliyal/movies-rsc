@@ -1,6 +1,8 @@
+import React, { ReactNode } from "react";
 import { defineRouter } from "waku/router/server";
 
 export default defineRouter(
+  // @ts-ignore
   async (id) => {
     switch (id) {
       case "layout":

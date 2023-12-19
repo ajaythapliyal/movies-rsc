@@ -1,5 +1,4 @@
 import { ReactNode } from "react";
-// @ts-expect-error
 import classes from "./shell.module.css";
 
 export default function Shell({ children }: { children: ReactNode }) {
