@@ -16,3 +16,10 @@ if ((globalThis as any).__WAKU_SSR_ENABLED__) {
 } else {
   createRoot(document.getElementById("root")!).render(rootElement);
 }
+
+/**
+ * TODOS:
+ * 1. Check if css @import of main.css is turning out to be waterfall.
+ * 2. Replace fetch with axios and use an interceptor.
+ * 1. Make first 20 pages eager loading.
+ */

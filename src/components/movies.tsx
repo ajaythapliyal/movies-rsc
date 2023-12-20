@@ -7,7 +7,7 @@ export default async function Movies() {
     <main className={styles.moviesContainer}>
       {movies.map((movie) => (
         <div key={movie.id}>
-          <img src={movie.posterUrl} />
+          <img src={movie.posterUrl} loading="lazy" width={200} />
         </div>
       ))}
     </main>
