@@ -8,3 +8,8 @@
 .pageInput{
     width : 1rem
 }
+
+.paginationButton{
+    border: none;
+    background-color: #99A8B2;
+}
